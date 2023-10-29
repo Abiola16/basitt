@@ -13,3 +13,20 @@ if (close) {
     })
 } 
 
+
+
+emailjs.init("Basit");
+
+    document.getElementById("contact-form").addEventListener("submit", function (event) {
+        event.preventDefault(); // Prevent the form from submitting in the traditional way
+
+        emailjs.sendForm("Basit", "mujeebabiola", this)
+            .then(function (response) {
+                console.log("Sent successfully: " + response.text);
+                // You can display a success message to the user or redirect them to a thank-you page.
+            }, function (error) {
+                console.log("Failed to send: " + error);
+                // You can display an error message to the user.
+            });
+    });
+
