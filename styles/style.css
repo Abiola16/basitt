@@ -159,11 +159,11 @@
 
 
 #home{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/bg.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://i.ibb.co/SnC57Wz/pexels-alex-andrews-821749.jpg");
     width: 100%;
     height: 100vh;
     background-size: cover;
-    background-position: top right;
+    background-position: top 20% center;
     background-attachment: fixed;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
@@ -449,7 +449,7 @@
 #portfolio .container .box .boxes-wrapper .boxes{
     width: 320px;
     height: 215px;
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/portaits\ bg.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("https://i.ibb.co/VjDkKxh/aisha-12.jpg");
     position: relative;
     background-position: center;
     background-size: cover;
@@ -457,13 +457,13 @@
     color: #fff;
 }
 #portfolio .container .box .boxes-wrapper .wedding{
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/wedding\ bg.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("https://i.ibb.co/gWNDYj7/212.jpg");
 }
 #portfolio .container .box .boxes-wrapper .fashion{
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/fashion\ bg\ \(2\).jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("https://i.ibb.co/MfBpW8Z/fireboy-6.jpg");
 }
 #portfolio .container .box .boxes-wrapper .products{
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/products\ bg.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("https://i.ibb.co/KxSZqvN/wedding-5.jpg");
 }
 #portfolio .container .box .boxes-wrapper .boxes .btn{
     position: absolute;
@@ -670,7 +670,7 @@ footer{
     /* height: 38vh; */
     filter:grayscale(100%);
     -webkit-filter: grayscale(100%);
-    background-image:linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.8)), url(../images/photography-camera-types-feature.png);
+    background-image:linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.8)), url("https://i.ibb.co/drHCccK/pexels-pixabay-414781.jpg" );
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
