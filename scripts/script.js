@@ -15,18 +15,22 @@ if (close) {
 
 
 
-emailjs.init("Basit");
+(function() {
+    // https://dashboard.emailjs.com/admin/account
+    emailjs.init("S_6dqqxEFAJn76uBS");
+})();
 
-    document.getElementById("contact-form").addEventListener("submit", function (event) {
-        event.preventDefault(); // Prevent the form from submitting in the traditional way
-
-        emailjs.sendForm("Basit", "mujeebabiola", this)
-            .then(function (response) {
-                console.log("Sent successfully: " + response.text);
-                // You can display a success message to the user or redirect them to a thank-you page.
-            }, function (error) {
-                console.log("Failed to send: " + error);
-                // You can display an error message to the user.
+window.onload = function() {
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+        // // generate a five digit number for the contact_number variable
+        // this.contact_number.value = Math.random() * 100000 | 0;
+        // // these IDs from the previous steps
+        emailjs.sendForm('Basit', 'khee.muu', this)
+            .then(function() {
+                console.log('SUCCESS!');
+            }, function(error) {
+                console.log('FAILED...', error);
             });
     });
-
+}

@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Jost:wght@200;300;400;600;700;800;900&family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 </head>
 <body>
     <section id="header">
@@ -140,12 +141,12 @@
                 <form id="contact-form">
                     <h2>Say Something</h2>
                     <div class="inputs">
-                        <input type="text" placeholder="Your full name">
-                        <input type="text" placeholder="Your phone number">
+                        <input type="text" placeholder="Your full name" name="user_name">
+                        <input type="email" placeholder="Your email"  name="user_email">
                     </div>
                     <div class="teaxtarea-btn">
-                        <textarea cols="30" rows="10" placeholder="Your message"></textarea>
-                        <a href="mailto:mujeebabiola898@gmail.com">Send</a>
+                        <textarea cols="30" rows="10" placeholder="Your message" name="message"></textarea>
+                        <input type="submit" value="Send" class="inputoo"></input>
                     </div>
                 </form>
             </div>
@@ -168,7 +169,6 @@
     </footer>
 
 <script src="./scripts/script.js"></script>
-<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-
+<!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script> -->
 </body>
 </html>
