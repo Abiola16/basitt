@@ -81,6 +81,7 @@
     display: none;
     position: absolute;
     background-color: #333;
+    border-radius: 5px;
 }
 
 .dropdown-content li {
@@ -113,9 +114,14 @@
         width: 250px;
         padding: 80px 0 0 10px;
         transition: 0.3s;
+        background: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(30px);
     }
     #navbar.active{
         right: 0px;
+    }
+    #navbar li a{
+        color: #fff;
     }
     #navbar li{
         margin-bottom: 25px;
@@ -150,7 +156,8 @@
     }
     .dropdown:hover .dropdown-content {
         padding: 0px 0;
-        background-color: #fff;
+        background-color: #333;
+        z-index: 1;
     }
     .dropdown-content li a {
         padding: 1px;
@@ -301,8 +308,6 @@
     #about .container .box .about-text{
         width: 100%;
     } 
-}
-@media screen and (max-width:435px) {
     #about .container .box .about{
         width: 100%;
     }
@@ -310,6 +315,14 @@
         text-align: center;
     } 
 }
+/* @media screen and (max-width:435px) {
+    #about .container .box .about{
+        width: 100%;
+    }
+    #about .container .box .about-text{
+        text-align: center;
+    } 
+} */
 
 
 
@@ -421,8 +434,8 @@
 
 #portfolio{
     width: 100%;
-    background-color: #121111;
-    padding-top: 70px;
+    background-color: #fff;
+    padding-top: 25px;
     padding-bottom: 70px;
 }
 #portfolio .container{
@@ -432,8 +445,8 @@
     align-items: center;
 }
 #portfolio .container h1{
-    color: #fff;
-    border-bottom : 3px solid #fff;
+    color: #000;
+    border-bottom : 3px solid #000;
 }
 #portfolio .container .box{
     display: flex;
@@ -510,7 +523,7 @@
 
 #contact{
     width: 100%;
-    padding: 80px 120px;
+    padding: 60px 120px;
 }
 #contact .container{
     display: flex;
