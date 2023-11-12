@@ -26,7 +26,7 @@ window.onload = function() {
         // // generate a five digit number for the contact_number variable
         // this.contact_number.value = Math.random() * 100000 | 0;
         // // these IDs from the previous steps
-        emailjs.sendForm('Basit', 'khee.muu', this)
+        emailjs.sendForm('Basit', 'Basit', this)
             .then(function() {
                 console.log('SUCCESS!');
             }, function(error) {
