@@ -470,13 +470,13 @@
     color: #fff;
 }
 #portfolio .container .box .boxes-wrapper .wedding{
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("https://i.ibb.co/gWNDYj7/212.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("https://i.ibb.co/KxSZqvN/wedding-5.jpg");
 }
 #portfolio .container .box .boxes-wrapper .fashion{
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("https://i.ibb.co/MfBpW8Z/fireboy-6.jpg");
 }
 #portfolio .container .box .boxes-wrapper .products{
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("https://i.ibb.co/KxSZqvN/wedding-5.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("https://i.ibb.co/gWNDYj7/212.jpg ");
 }
 #portfolio .container .box .boxes-wrapper .boxes .btn{
     position: absolute;
