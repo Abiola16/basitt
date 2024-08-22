@@ -18,20 +18,7 @@ const galleryArray = [
     {image: "https://i.ibb.co/P902XCL/PRs-7.jpg" },
     {image: "https://i.ibb.co/XFMZ1P4/zay-2.jpg"},
     {image: "https://i.ibb.co/wC8tRT2/zay.jpg"},
-    {image:"https://i.ibb.co/Yd42YsM/kunmii-the-grapher-3370861149332478095-40148215706.jpg"},
-    {image:"https://i.ibb.co/J5MLNXg/kunmii-the-grapher-3370861149332478095-40148215706-1.jpg"},
-    {image:"https://i.ibb.co/QkrK640/kunmii-the-grapher-3380229735826072342-40148215706.jpg"},
-    {image:"https://i.ibb.co/PYc7104/kunmii-the-grapher-3380229735826072342-40148215706-1.jpg"},
-    {image:"https://i.ibb.co/jymXGmn/kunmii-the-grapher-3383901885837683557-40148215706.jpg"},
-    {image:"https://i.ibb.co/z897bSt/kunmii-the-grapher-3383901885837683557-40148215706-1.jpg"},
-    {image:"https://i.ibb.co/ydmWYwq/kunmii-the-grapher-3383901885837683557-40148215706-2.jpg"},
-    {image:"https://i.ibb.co/hWfqr6r/kunmii-the-grapher-3383901885837683557-40148215706-3.jpg"},
-    {image:"https://i.ibb.co/p1bcMpF/kunmii-the-grapher-3427566242999988409-40148215706.jpg"},
-    {image:"https://i.ibb.co/kDp2Gpk/kunmii-the-grapher-3427566242999988409-40148215706-1.jpg"},
-    {image:"https://i.ibb.co/d65q3xV/kunmii-the-grapher-3427566242999988409-40148215706-2.jpg"},
-    {image:"https://i.ibb.co/17Zjjx4/kunmii-the-grapher-3429522962630330921-40148215706.jpg"},
-    {image:"https://i.ibb.co/vQPKQXW/kunmii-the-grapher-3429522962630330921-40148215706-1.jpg"},
-];
+]
 
 let galleryHtml = '';
 galleryArray.forEach((galleryArray) => {
